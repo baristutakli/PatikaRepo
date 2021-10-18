@@ -1,0 +1,12 @@
+l = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+l2 =[]
+# İç içe geçmiş bütün listeleri tek tek kontrol eder. Daha sonra ise tek boyutlu bir liste haline getirir.
+def flatten(l):
+    for i in l:
+        if(type(i) == list):
+            flatten(i)
+        if(type(i) != list):
+            l2.append(i)            
+
+flatten(l)
+print(l2) 
