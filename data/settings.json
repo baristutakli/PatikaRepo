@@ -1,0 +1,10 @@
+{
+"userName": "fakeUser",
+"password": "123456789",
+"serverIP": "127.0.0.1",
+"serverName": "kodluyoruz.org",
+"isActive": true,
+"userId": 1453,
+"reads": ["Livaneli", "Orhan Pamuk", "Yaşar Kemal", "Tolstoy"]
+
+}
