@@ -9,4 +9,5 @@ This repository contains the codes that i wrote for the solutions of tasks given
 
 * FetchApp.js is created to get information from a website and from the settings.json file. My aim is to learn Fetch in JavaScript. Then, i display datas using **"fetchedData.html"**.
 <img src="https://github.com/baristutakli/PatikaRepo/blob/master/fetchedData.png" ></br>
+* To learn Javascript Objects, ı did some exercices on learnObject.js
 
