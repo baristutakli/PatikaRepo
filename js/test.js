@@ -1,5 +1,5 @@
 
-document.body.style.backgroundColor = "#99CCFF"
+document.body.style.backgroundColor = "#d8e2dc"
 
 let formDom = document.querySelector("#userForm")
 formDom.addEventListener("submit", formHandler)
@@ -14,7 +14,7 @@ function formHandler(event){
     const name = document.querySelector("#Uname")
     
     if (userName.value && task.value && subTasks.value ) {
-        name.innerHTML = userName.value
+        
         addItem(task.value,subTasks.value)
         name.innerHTML = ""
         task.value = ""
@@ -38,17 +38,3 @@ function addItem(task,subTasks){
 }
 
 
-/*
-let formDom =document.querySelector("#userForm")
-formDom.addEventListener("submit",formSubmit)
-function formSubmit(event){
-    event.preventDefault() // form submitte default 
-
-    // Getting infomation from form named UserForm
-    let scoreInpDom = document.querySelector("#score")
-    console.log(scoreInpDom.value)
-
-    // use localStorage
-     localStorage.setItem("score",scoreInpDom.value)
-     
-}*/
