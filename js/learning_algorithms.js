@@ -107,3 +107,43 @@ const fib = (n)=>{
 console.log(fib(5))
 console.log(fib(6))
 console.log(fib(7))
+
+// Combination algorithms
+
+const combinations = (elements) => {
+    if(elements.length ===0)return [[]];
+    const firstEl = elements[0];
+    const rest = elements.slice(1)
+
+    const combsWithoutFirst = combinations(rest);
+    const combsWithFirst=[]
+    combsWithoutFirst.forEach(comb => {
+        const combWithFirst = [...comb, firstEl];
+        
+    });
+    return [...combsWithoutFirst,...combsWithFirst]
+};
+console.log(combinations(['a','b','c']));
+
+// Permutations
+const permutations = (elements) => {
+    if (elements.length ===0)return [[]];
+    const firstElement = elements[0]
+    const rest = elements.slice(1);
+
+    const permsWithoutFirst = permutations(rest);
+    const allPermutations =[];
+    permsWithoutFirst.forEach(perm => {
+        for (let i = 0; i < perm.length; i++) {
+            const permWithFirst = [...perm.slice(0,i),firstEl,...perm.slice(i)]
+            
+        }
+    });
+    return allPermutations;
+}
+
+// Time: O(n!)
+// Space: O(n*n)
+
+console.log(permutations(["a","b","c"]));
+console.log(permutations(["b","c"]));
