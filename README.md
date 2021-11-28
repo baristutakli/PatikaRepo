@@ -14,5 +14,6 @@ This repository contains the codes that i wrote for the solutions of tasks given
 * To dive deep into algorithms and to improve my skills, i'm following algorithm lessons on **CoderByte**. So, i created a file named **learning_algorithms.js**  to practice algorithms. 
 
 * PATIKASTORE APP UI
-<img src="https://github.com/baristutakli/PatikaRepo/blob/master/ScreenShots/PatıkaStore.png">
-<img src="https://github.com/baristutakli/PatikaRepo/blob/master/ScreenShots/PatıkaStore2.png" >
+<p align="center">
+<img src="https://github.com/baristutakli/PatikaRepo/blob/master/ScreenShots/PatıkaStore.png"  height="500" width="300">
+<img src="https://github.com/baristutakli/PatikaRepo/blob/master/ScreenShots/PatıkaStore2.png"  height="500" width="300"></p>
