@@ -1,4 +1,6 @@
 
+
+
 // I'm getting information from settings.json
 fetch("data/settings.json").then(
     response => response.json()
