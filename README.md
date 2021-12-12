@@ -17,3 +17,6 @@ This repository contains the codes that i wrote for the solutions of tasks given
 <p align="center">
 <img src="https://github.com/baristutakli/PatikaRepo/blob/master/ScreenShots/PatıkaStore.png"  height="500" width="300">
 <img src="https://github.com/baristutakli/PatikaRepo/blob/master/ScreenShots/PatıkaStore2.png"  height="500" width="300"></p>
+
+* HTML Modülü Ödev 3- Tavuklu Pilav tarifi
+<img src="https://github.com/baristutakli/PatikaRepo/blob/master/ScreenShots/Odev3.png" >
