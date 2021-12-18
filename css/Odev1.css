@@ -1,0 +1,28 @@
+#CompanyName{
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+}
+#CompanyName p{
+    color: brown;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    margin: 10px;
+    font-family: serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.container{
+    width: 1080px;
+    margin-left: 400px;
+    margin-top: 100px;
+    text-align: center;
+}
+.container p{
+    text-align: justify;
+    font-size: 20px;
+    
+}
