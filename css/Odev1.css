@@ -1,3 +1,8 @@
+body{
+    width: 80%;
+    align-items: center;
+    margin-left: 100px;
+}
 #CompanyName{
     text-align: center;
     font-family: serif;
@@ -15,14 +20,38 @@ nav a{
     font-size: 20px;
     text-decoration: none;
 }
-.container{
-    width: 1080px;
-    margin-left: 400px;
-    margin-top: 100px;
+
+.greeting{
+    align-items: center;
     text-align: center;
 }
-.container p{
-    text-align: justify;
-    font-size: 20px;
+
+.urunler{
+    width: 980px;
+}
+#urun {
+    width: 980px;
+    padding: 10px;
+    border: black;
     
+    height: 240px;
+    margin-left: 100px;
+}
+#urun img{
+    width: 40%;
+    float: left;
+    display: block;
+    margin: 10px;
+}
+#urun p{
+   
+    width: 55%;
+    float: right;
+    text-align: justify;
+}
+button{
+   background-color: rgb(255, 153, 0);
+   border-radius: 10px;
+   width: 100px;
+   height: 40px;
 }
