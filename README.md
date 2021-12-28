@@ -23,5 +23,6 @@ This repository contains the codes that i wrote for the solutions of tasks given
 
 * CSS Modülü Ödev 2- Google Sayfası Taklidi
 <img src="https://github.com/baristutakli/PatikaRepo/blob/master/ScreenShots/google1998.png" >
+
 * CSS Modülü Ödev 3- Google 2021 Sayfası Taklidi
 <img src="https://github.com/baristutakli/PatikaRepo/blob/master/ScreenShots/google2021.png" >
