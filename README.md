@@ -20,3 +20,6 @@ This repository contains the codes that i wrote for the solutions of tasks given
 
 * HTML Modülü Ödev 3- Tavuklu Pilav tarifi
 <img src="https://github.com/baristutakli/PatikaRepo/blob/master/ScreenShots/Odev3.png" >
+
+* CSS Modülü Ödev 2- Google Sayfası Taklidi
+<img src="https://github.com/baristutakli/PatikaRepo/blob/master/ScreenShots/google1998.png" >
